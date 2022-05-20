@@ -12,8 +12,8 @@ from scipy.optimize import curve_fit
 # CREATE DFs WITH FOR SEGS AND NODES #
 ######################################
 
-input_segments = "/home/josie/Desktop/Northshore_Data/CityofDuluth/CityofDuluth_Basin5.gpkg"
-input_nodes = "/home/josie/Desktop/Northshore_Data/CityofDuluth/CityofDuluth_Basin5_nodes.gpkg"
+input_segments = "PATH/TO/SEGMENTS/GEOPACKAGE ex. '/home/josie/Desktop/Northshore_Data/CityofDuluth/CityofDuluth_Basin5.gpkg'"
+input_nodes = "PATH/TO/NODES/GEOPACKAGE ex. '/home/josie/Desktop/Northshore_Data/CityofDuluth/CityofDuluth_Basin5_nodes.gpkg'"
 
 input_segment_id = 9
 outbase='plot_tmp'
